@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 const routes: Array<RouteRecordRaw> = [
@@ -8,18 +8,20 @@ const routes: Array<RouteRecordRaw> = [
     component: HomeView
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: '/portfolio',
+    component: () => import(/* webpackChunkName: "portfolio" */ '../views/Portfolio.vue'),
+    children:[
+      {path:'', name:'blogs.vue',component:()=>import(/* webpackChunkName: "blogs" */ '../views/BlogsView.vue')},
+      {path:'projects', name:'projects.vue',component:()=>import(/* webpackChunkName: "frontend" */ '../views/FrontendView.vue')},
+    ]
+    
   }
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
-  routes
+  history: createWebHistory(),
+  routes,
+  linkActiveClass:'myActiveClass'
 })
 
 export default router
