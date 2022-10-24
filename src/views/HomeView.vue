@@ -7,11 +7,9 @@
                 <p class="text-5xl md:text-6xl font-bold font-robot text-pop-up-top">
               Blogger,
               </p>
-              
               <p class="text-5xl md:text-6xl font-bold font-robot relative -top-4 text-pop-up-top">Web Developer</p>
-              <p class="w-96 text-justify text-lg leading-8">I'm a self-taught full-stack web developer based in Nairobi. I love building and working on diverse distributed teams.</p>
+              <p class="w-96 text-justify text-lg leading-8">I am a full-stack web developer based in Nairobi. I love building and working on diverse distributed teams.</p>
           <router-link :to="{name:'blogs.vue'}" class="block" id="portfolio-btn"><button class="w-full md:w-48 btns border-2 border-black py-2 hover:text-white font-bold hover:bg-primaryColor hover:scale-[1.1] ease-out duration-300">Portfolio</button></router-link>
-
           </div>
           <div id="social-icons" class="w-full md:w-96 flex justify-center space-x-10 mt-28 md:relative md:right-5 md:justify-start">
             <a href="https://linkedin.com/in/ian-mugenya" target="_blank"><i class="fa-brands fa-linkedin text-3xl md:text-2xl hover:text-primaryColor hover:scale-[1.1] ease-out duration-300"></i></a>
