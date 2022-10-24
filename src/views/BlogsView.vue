@@ -33,7 +33,6 @@ export default defineComponent({
       "https://dev.to/api/articles?username=ianmcbull"
     ).get("");
     this.blogs = blogPosts;
-    console.log(blogPosts)
   },
   data() {
     return {

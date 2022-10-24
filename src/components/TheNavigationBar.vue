@@ -97,7 +97,8 @@
 
 <script lang="ts">
     import { ref, defineComponent } from 'vue'
-    
+    import emailjs from 'emailjs-com';
+    import { useToast } from "vue-toastification";
     import {
       TransitionRoot,
       TransitionChild,
@@ -124,7 +125,8 @@
            return{
              name: '',
              email: '',
-             message: ''
+             message: '',
+             toast:useToast()
            }
          },
       methods:{
@@ -135,10 +137,30 @@
       this.isOpen = true
     },
     sendEmail(){
+      
+     const templateParams = {
+        from_name: this.name,
+        from_email: this.email,
+        to_name: 'Ian Mugenya',
+        message: this.message,
+     };
+      try {
+        emailjs.send(
+          'service_ykmd805',
+          'template_5qcid5q',
+          templateParams,
+          '3ldMW-PRkgwrasBTN'
+      )
+      this.toast.success('Message sent successfully')
+      } catch (error) {
+       this.toast.error('Unable to send message') 
+
+      }
       this.closeModal()
-       console.log(this.name)
-       console.log(this.email)
-       console.log(this.message)
+      this.name = ''
+      this.email = ''
+      this.message = ''
+      
     }
     }
     })
