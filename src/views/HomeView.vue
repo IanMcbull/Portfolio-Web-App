@@ -33,9 +33,9 @@
 import { defineComponent } from "vue";
 export default defineComponent({
   mounted(){
-    setInterval(()=>{
-      this.addVibration(document.querySelector('#portfolio-btn'));
-    },7000)
+    // setInterval(()=>{
+    //   this.addVibration(document.querySelector('#portfolio-btn'));
+    // },7000)
   },
   methods:{
     addVibration(element: HTMLElement | null) {
