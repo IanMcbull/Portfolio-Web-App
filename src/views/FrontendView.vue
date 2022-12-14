@@ -27,7 +27,7 @@
    <img src="https://media.giphy.com/media/1srQ6krWem0i3l2v96/giphy.gif" alt="Winamp Clone Application Image"/>
    <div class="p-4">
     <h2 class="text-2xl underline underline-offset-2">Winamp Clone</h2>
-    <p class="text-sm mt-2">A Winapm clone application built with Vuejs, Tailwindcss and Typescript</p>
+    <p class="text-sm mt-2">A Winamp clone application built with Vuejs, Tailwindcss and Typescript</p>
     <div class="flex space-x-3 mt-6">
      <a href="https://github.com/IanMcbull/week-3-project-winamp-clone" class="underline text-orange-500" target="_blank">Github Link</a>
      <a href="https://celebrated-dango-7a2087.netlify.app/" class="underline text-orange-500" target="_blank">Live Link</a>
@@ -41,7 +41,7 @@
     <p class="text-sm mt-2">A simple Website Template built usint ExpressJS and EJS</p>
     <div class="flex space-x-3 mt-6">
      <a href="https://github.com/IanMcbull/tonnys-barbershop-website/tree/master" class="underline text-orange-500" target="_blank">Github Link</a>
-     <a href="https://obscure-bayou-53754.herokuapp.com/" class="underline text-orange-500" target="_blank">Live Link</a>
+     <a href="https://shavesandtrimz.onrender.com/" class="underline text-orange-500" target="_blank">Live Link</a>
     </div>
    </div>
   </div>
