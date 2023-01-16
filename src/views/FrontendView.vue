@@ -51,7 +51,7 @@
    <img src="https://media.giphy.com/media/0fwIOkT8VMlwXgyG1P/giphy.gif" alt="QR Generator Application Image"/>
    <div class="p-4">
     <h2 class="text-2xl underline underline-offset-2">IP Address Locator</h2>
-    <p class="text-sm mt-2">An application that allows users to search for the name of their Internet Service provider and their location. </p>
+    <p class="text-sm mt-2">An application that allows users to search for the name of their Internet Service provider and their location. Built with HTML, CSS and JavaScript.</p>
     <div class="flex space-x-3 mt-6">
      <a href="https://github.com/IanMcbull/QRCode-Reader/tree/master" class="underline text-orange-500" target="_blank">Github Link</a>
      <a href="https://unique-parfait-415faf.netlify.app/" class="underline text-orange-500" target="_blank">Live Link</a>
@@ -63,7 +63,7 @@
    <img src="https://media.giphy.com/media/ZwyN2CoxtQflNBofHh/giphy.gif" alt="QR Generator Application Image"/>
    <div class="p-4">
     <h2 class="text-2xl underline underline-offset-2">Tip Calculator</h2>
-    <p class="text-sm mt-2">A simple QR Code Generator built with Vuejs, Tailwindcss and Typescript</p>
+    <p class="text-sm mt-2">A simple Tip Calculator built with HTML, CSS and JavaScript</p>
     <div class="flex space-x-3 mt-6">
      <a href="https://github.com/IanMcbull/QRCode-Reader/tree/master" class="underline text-orange-500" target="_blank">Github Link</a>
      <a href="https://marvelous-empanada-972eae.netlify.app/" class="underline text-orange-500" target="_blank">Live Link</a>
@@ -75,7 +75,7 @@
    <img src="https://media.giphy.com/media/cNUwH9IoKyo6XvOsdH/giphy.gif" alt="QR Generator Application Image"/>
    <div class="p-4">
     <h2 class="text-2xl underline underline-offset-2">DC Marvel Hero Finder</h2>
-    <p class="text-sm mt-2">A simple QR Code Generator built with Vuejs, Tailwindcss and Typescript</p>
+    <p class="text-sm mt-2">A simple application that you can use to search for different Super hero characters. This was built using HTML, CSS and JavaScript</p>
     <div class="flex space-x-3 mt-6">
      <a href="https://github.com/IanMcbull/QRCode-Reader/tree/master" class="underline text-orange-500" target="_blank">Github Link</a>
      <a href="https://dcmarvelherofinder.netlify.app/" class="underline text-orange-500" target="_blank">Live Link</a>
@@ -87,7 +87,7 @@
    <img src="https://media.giphy.com/media/QWPrqtS0UGX72KfLkM/giphy.gif" alt="QR Generator Application Image"/>
    <div class="p-4">
     <h2 class="text-2xl underline underline-offset-2">Expense Chart Component</h2>
-    <p class="text-sm mt-2">A simple QR Code Generator built with Vuejs, Tailwindcss and Typescript</p>
+    <p class="text-sm mt-2">A simple Expense chart component built with HTML, CSS and JavaScript</p>
     <div class="flex space-x-3 mt-6">
      <a href="https://github.com/IanMcbull/QRCode-Reader/tree/master" class="underline text-orange-500" target="_blank">Github Link</a>
      <a href="https://expense-chart-component-fem.netlify.app/" class="underline text-orange-500" target="_blank">Live Link</a>
