@@ -7,9 +7,10 @@
     <p class="text-sm mt-2">A simple QR Code Generator built with Vuejs, Tailwindcss and Typescript</p>
     <div class="flex space-x-3 mt-6">
      <a href="https://github.com/IanMcbull/QRCode-Reader/tree/master" class="underline text-orange-500" target="_blank">Github Link</a>
-     <a href="https://spectacular-elf-3624f8.netlify.app/" class="underline text-orange-500" target="_blank">Live Link</a>
+     <a href="https://superlative-moonbeam-329608.netlify.app/#/" class="underline text-orange-500" target="_blank">Live Link</a>
     </div>
    </div>
+   
   </div>
   <div class="rounded-md flex flex-col shadow-xl">
    <img src="https://media.giphy.com/media/ITsSZQpHM2Is8VGXfq/giphy.gif" alt="QR Generator Application Image"/>
@@ -18,7 +19,7 @@
     <p class="text-sm mt-2">An app that allows the user to search for different characters from the Rick and Morty show.</p>
     <div class="flex space-x-3 mt-6">
      <a href="https://github.com/IanMcbull/QRCode-Reader/tree/master" class="underline text-orange-500" target="_blank">Github Link</a>
-     <a href="https://superlative-moonbeam-329608.netlify.app/#/" class="underline text-orange-500" target="_blank">Live Link</a>
+     <a href="https://spectacular-elf-3624f8.netlify.app/" class="underline text-orange-500" target="_blank">Live Link</a>
     </div>
    </div>
   </div>
